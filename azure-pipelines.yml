@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool:DefaultLinux
+pool:
+  vmImage: ubuntu-18.04
 
 variables:
   buildConfiguration: 'Release'
